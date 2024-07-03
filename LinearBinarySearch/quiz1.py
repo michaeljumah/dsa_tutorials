@@ -12,4 +12,12 @@ systematic strategy to apply for solving problems:
     6. apply the right technique to overcome the inefficieny. repeart step 3 to 6
     
 """
+"""
+    inputs:
+        1. cards: a list of numbers sorted in decreasing order.e.g [13,11,10,7,4,3,1,0]
+        2. query: a number's position to be determined
+    
+    output:
+        3. position: the position of query in the list cards. e.g 3 in the above case(counting from 0)
+"""
 
