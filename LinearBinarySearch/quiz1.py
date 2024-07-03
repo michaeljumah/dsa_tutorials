@@ -21,3 +21,6 @@ systematic strategy to apply for solving problems:
         3. position: the position of query in the list cards. e.g 3 in the above case(counting from 0)
 """
 
+
+def LocateCard(cards, query):
+    pass
