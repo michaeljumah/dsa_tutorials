@@ -24,3 +24,20 @@ systematic strategy to apply for solving problems:
 
 def LocateCard(cards, query):
     pass
+
+
+
+# step 2. come up with some example inputs and outputs. try tocover all possible edge cases.
+    """
+        test cases will be represented as DICTIONARIES countaing two keys, input and outputs 
+    """
+test = {
+    'input': {
+        'cards': [13,11,10,7,4,3,1,0],
+        'query': 7
+        },
+    'output': 3
+}
+
+LocateCard(test['input']['cards'], test['input']['query']) == test['output']
+
