@@ -36,4 +36,4 @@ def LocateCard(cards, query):
     return print(-1)
         
         
-LocateCard([], 9)
+LocateCard([1,2,3,4,5,6,7,8,9], 9)
