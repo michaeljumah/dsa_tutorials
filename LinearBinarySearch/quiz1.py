@@ -23,4 +23,16 @@ systematic strategy to apply for solving problems:
 
 
 def LocateCard(cards, query):
-    pass
+    position = 0
+    
+    print ('cards:', cards)
+    print ('query:', query)
+    
+    while True:
+        print ('position:', position)
+        
+        if cards[position] == query:
+            return position
+        
+        
+LocateCard([1,2,3,4,5], 1)
