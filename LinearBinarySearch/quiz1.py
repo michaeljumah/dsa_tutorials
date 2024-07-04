@@ -28,11 +28,12 @@ def LocateCard(cards, query):
     print ('cards:', cards)
     print ('query:', query)
     
-    while True:
-        print ('position:', position)
-        
+    while position < len(cards):
         if cards[position] == query:
-            return position
+            return print('position:', position)
+        
+        position += 1
+    return print(-1)
         
         
-LocateCard([1,2,3,4,5], 1)
+LocateCard([], 9)
