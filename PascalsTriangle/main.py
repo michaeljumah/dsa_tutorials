@@ -4,7 +4,7 @@
 main file 
 """
 
-PascalTriangle = __import__(PascalTriangle').PascalTriangle
+#PascalTriangle = __import__(PascalTriangle').PascalTriangle
 
 def print_triangle(triangle):
 """
