@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-main file
+main file 
 """
 
 PascalTriangle = __import__(PascalTriangle').PascalTriangle
@@ -10,7 +10,7 @@ def print_triangle(triangle):
 """
     print the triangle
     Args:
-    triangle (_type_): _description_
+    triangle (_type_): _description
 """
     for row in triangle:
         print("[{}]".format(",".join([str(x) for x in row])))
