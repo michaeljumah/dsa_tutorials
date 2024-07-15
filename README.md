@@ -1,4 +1,3 @@
 **Data Structures and Algorithms
 
-Binary search, Linked List and Complexity
-introduction
+1. BIG 0 Notation
