@@ -1,3 +1,5 @@
 **Data Structures and Algorithms
 
-1. BIG 0 Notation
+*DSA day 1/100
+    1. Big O Notation
+
