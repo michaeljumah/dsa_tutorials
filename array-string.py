@@ -15,5 +15,5 @@ def addtwo(arr, tar):
 
 
 arr = [1,2,3,4,5,6,7]
-tar = 5
+tar = 7
 print(addtwo(arr, tar))
