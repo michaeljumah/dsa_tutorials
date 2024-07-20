@@ -10,4 +10,3 @@ for i in _list:
     
 
 print("now")
-#-----day 2------    
