@@ -1,3 +1,4 @@
+#---day 1----
 #O(1) Space complexity
 fruit = "banana"
 print(fruit)
@@ -9,4 +10,4 @@ for i in _list:
     
 
 print("now")
-    
+#-----day 2------    
