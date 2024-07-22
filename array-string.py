@@ -5,7 +5,7 @@ print (nums[-5])
 print (nums[len(nums) - 1])
 print(nums[::-1])
 
-print ("------------------------------------")
+print ("----------------------------------------------")
 def addtwo(arr, tar):
     for i in range(len(arr)):
         for j in range(i+1, len(arr)):
