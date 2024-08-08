@@ -16,6 +16,6 @@ def addtwo(arr, tar):
 
 
 arr = [2,3,4,5,6,7]
-print('range of length of arr:', range(len(arr)))
+print('range of length of arr is :', range(len(arr)))
 tar = 7
 print(addtwo(arr, tar))
