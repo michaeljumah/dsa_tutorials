@@ -16,8 +16,17 @@ Input: nums = [1,1,1,3,3,4,3,2,4,2]
 Output: true"""
 
 
-def containsDuplicate(self, nums):
+def containsDuplicate(nums):
         """
         :type nums: List[int]
         :rtype: bool
         """
+        mapx = {}
+        for i in nums:
+            if i not in mapx:
+                mapx[i] = 1
+            else:
+                return True
+            
+nums = [1,2,3,4]
+print(containsDuplicate(nums))
