@@ -1,4 +1,4 @@
-# day 2 of data structures and algorithms
+'''day 2 of data structures and algorithms
 nums = [1,2,3,4,5]
 print (nums[0])
 print (nums[-5])
@@ -10,12 +10,25 @@ def addtwo(arr, tar):
     for i in range(len(arr)):
         for j in range(i+1, len(arr)):
             if (arr[i]+arr[j]) == tar:
-                return [arr[i], arr[j]]
+                return [arr[i], arr[j]]        '''
+
+            
+def bestpract(arr):
+    
+    mapx = {}
+    for i in range(len(arr)):
+        mapx[arr[i]] = i
+        for i in range(len(arr)):
+            y = tar - arr[i]
+            if y in mapx and mapx[y] != i:
+                print("ting")
+                return (mapx[y] , i)
+            
+            
     
     
 
 
 arr = [2,3,4,5,6,7]
-print('range of length of arr is :', range(len(arr)))
 tar = 7
-print(addtwo(arr, tar))
+print(bestpract(arr))
