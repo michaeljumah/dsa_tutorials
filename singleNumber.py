@@ -24,3 +24,26 @@ Constraints:
 -3 * 104 <= nums[i] <= 3 * 104
 Each element in the array appears twice except for one element which appears only once.
 """
+
+class Solution(object):
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        sol = {}
+        for i in nums:
+            if i not in sol:
+                sol[i] = 1
+            else:
+                sol[i] += 1
+        for j in sol:
+            if sol[j] == 1:
+                print(j)
+             
+            
+        
+        
+nums = [1,1,7,2,2,3,3,4,4]
+sol = Solution()
+sol.singleNumber(nums)
