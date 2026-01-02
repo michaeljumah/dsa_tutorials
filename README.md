@@ -1,14 +1,12 @@
-#Data Structures and Algorithms
+#DATA STRUCTURES AND ALGORITHM
 
-#DSA day 1/100
-    1. Big O Notation
-       space complexity :
-             O(1) 
-             i.e declaring variables e.g age = 26
-             
-             
-             and O(n)
-             i.e declaring and transversing a list e.g listOfAge = [12,34,53,6,24]
+#Introduction to Data STRUCTURES
+Data structures are ways to store data in an effecient manner and accessing them as and when requires
 
-    2. Time and Space Complexity
+#Types of Data Structures
+    built-in data structures(list,dictionary,tuple,set)
 
+    user-defined data structures(stack,queue,tree,graph)
+
+  #built-in data structures
+  #LIST
