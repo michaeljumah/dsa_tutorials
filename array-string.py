@@ -1,4 +1,4 @@
-"""day 2 of data structures and algorithms
+"""  day 2 of data structures and algorithms
 Given an array of integers nums and an 
 integer target, return indices of the two 
 numbers such that they add up to target.
